@@ -63,3 +63,12 @@ a {
     font-size: 130%;
 }
 
+#top-container {
+    padding-top: 90px;
+}
+
+#intro-video {
+    height: 600px;
+    width: 100%;
+}
+
