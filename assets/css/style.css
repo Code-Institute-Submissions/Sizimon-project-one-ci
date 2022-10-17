@@ -76,11 +76,15 @@ a {
     width: 100%;
 }
 
+#gap {
+    margin-bottom: 90px;
+}
+
 /* About Section */
 
 #about {
     width: 100%;
-    height: 600px;
+    height: 1200px;
     text-align: center;
 }
 
@@ -92,19 +96,27 @@ a {
 }
 
 #about-container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 
 #about-content {
-    width: 100%;
+    width: 80%;
     height: 100px;
     display: block;
     text-align: center;
     margin: 20px auto;
+    margin-bottom: 50px; 
+}
 
-    
+#about-content-long {
+    width: 80%;
+    height: 100px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    margin-bottom: 90px;  
 }
 
 #about-heading {
@@ -118,58 +130,15 @@ a {
 
 
 #objective-image {
-    width: 32%;
-    height: 300px;
+    width: 100%;
+    height: 600px;
     display: inline-block;
     overflow: hidden;
-    margin: 0 5px 30px 5px;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 #objective-image img {
-    max-width: 100%;
-    height: 300px;
-}
-
-#item-image {
     width: 100%;
-    height: 400px;
-    display: block;
-    overflow: hidden;
-    margin: 0 0 30px 0;
-    padding: 0;
-}
-
-#item-image img {
-    max-width: 100%;
-    height: 400px;
-    padding: 0;
-}
-
-#map-image {
-    width: 100%;
-    height: 400px;
-    display: block;
-    overflow: hidden;
-    margin: 0 0 30px 0;
-    padding: 0;
-}
-
-#map-image img {
-    max-width: 100%;
-    height: 100%;
-    padding: 0;
-}
-
-#victory-image {
-    width: 47.5%;
-    height: 300px;
-    display: inline-block;
-    overflow: hidden;
-    margin: 0 0 30px 0;
-    padding: 0;
-}
-
-#victory-image img {
-    max-width: 100%;
-    height: 300px;
+    height: 600px;
 }
