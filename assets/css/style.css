@@ -48,7 +48,7 @@ a {
     
 }
 
-#menu #nav-text:hover {
+#menu .nav-text:hover {
     border-bottom: solid 1px #FFFAF1;
 }
 
@@ -60,7 +60,7 @@ a {
     padding: 20px 0;
 }
 
-#nav-text {
+.nav-text {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 130%;
 }
@@ -72,73 +72,144 @@ a {
 }
 
 #intro-video {
-    height: 600px;
+    height: 640px;
     width: 100%;
 }
+
+
+
+/* About Section */
 
 #gap {
     margin-bottom: 90px;
 }
 
-/* About Section */
-
 #about {
     width: 100%;
-    height: 1200px;
     text-align: center;
 }
 
-#about-title {
+.about-title {
     text-align: center;
-    margin: 20px 0;
+    margin: 60px auto 60px auto;
     font-size: 350%;
     font-weight: 100;
+    color: #FFFAF1;
 }
 
 #about-container {
     width: 100%;
     margin: 0 auto;
-    text-align: center;
+    display: inline-block;
+    background: url(../images/wallpaper.jpeg);
 }
 
-#about-content {
-    width: 80%;
-    height: 100px;
-    display: block;
-    text-align: center;
-    margin: 20px auto;
-    margin-bottom: 50px; 
+.container-mini {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
 }
 
-#about-content-long {
-    width: 80%;
-    height: 100px;
-    display: block;
-    text-align: center;
-    margin: 20px auto;
-    margin-bottom: 90px;  
-}
 
-#about-heading {
+/* Heading font stylings */
+
+.about-heading {
     font-size: 280%;
-    color: rgb(20, 30, 55);
+    color: #FFFAF1;
+    margin: 0px auto;
 }
 
-#about-text {
+.about-text {
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* About image alligned left content right */
 
-#objective-image {
-    width: 100%;
-    height: 600px;
-    display: inline-block;
-    overflow: hidden;
-    margin: 0;
-    margin-bottom: 40px;
+.about-image-left {  
+    width: 40vw;
+    float: left;   
+    margin: 20px auto 50px 60px;
+    clear: both;
+    
 }
 
-#objective-image img {
+.about-image-left img {
     width: 100%;
-    height: 600px;
+    height: 360px; 
+    border: 2px solid #FFFAF1;
+    border-radius: 5%;
+    
 }
+
+.about-content-right {
+    width: 40vw;
+    height: 320px;
+    text-align: center;
+    margin: 20px 60px 50px auto;
+    letter-spacing: 2px;
+    color: #FFFAF1;
+    float: right;
+}
+
+.about-content-right h2 {
+    width: 80%;
+    color: #FFFAF1;
+}
+
+/* About image alligned right and content aligned left */
+
+.about-image-right {  
+    width: 40vw;
+    float: right;   
+    margin: 20px 60px 50px auto;
+    clear: both;
+    
+}
+
+.about-image-right img {
+    width: 100%;
+    height: 360px; 
+    border: 2px solid #FFFAF1;
+    border-radius: 5%;
+    
+}
+
+.about-content-left {
+    width: 40vw;
+    height: 320px;
+    text-align: center;
+    margin: 40px auto 50px 60px;
+    letter-spacing: 2px;
+    color: #FFFAF1;
+    float: left;
+}
+
+.about-content-left h2 {
+    width: 80%;
+    color: #FFFAF1;
+}
+
+.white-border {
+    margin-top: 30px ;
+    border: 1px solid white;
+}
+
+
+/* Champion Section */
+
+#subscribe {
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    background-color: black;
+}
+
+.subscribe-title { 
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        padding-top: 60px;
+        font-size: 350%;
+        font-weight: 100;
+        color: #FFFAF1;
+    }
