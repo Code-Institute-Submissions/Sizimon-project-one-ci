@@ -204,12 +204,53 @@ a {
     background-color: black;
 }
 
+#subscribe-content {
+    width: 60%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
 .subscribe-title { 
-        text-align: center;
-        margin: 0 auto;
-        margin-bottom: 60px;
-        padding-top: 60px;
-        font-size: 350%;
-        font-weight: 100;
-        color: #FFFAF1;
-    }
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding-top: 60px;
+    font-size: 350%;
+    font-weight: 100;
+     color: #FFFAF1;
+}
+
+.form-label {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #FFFAF1;
+}
+
+.form-input {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+    height: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    background-color: black;
+    border-bottom: solid 2px #FFFAF1;
+    color: #FFFAF1;
+    font-size: 20px;
+    outline: none;
+
+}
+
+#sub-button {
+    color: #FFFAF1;
+    width: 100%;
+    height: 80px;
+    background: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
