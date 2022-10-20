@@ -15,7 +15,8 @@ body {
 }
 
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -39,7 +40,8 @@ a {
     box-sizing: border-box;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 50px;
 }
 
@@ -48,7 +50,7 @@ a {
     list-style-type: none;
     margin-right: 60px;
     text-align: right;
-    
+
 }
 
 #menu .nav-text:hover {
@@ -99,7 +101,7 @@ a {
 
 .about-title {
     text-align: center;
-    margin: 60px auto 60px auto;
+    margin: 30px auto 30px auto;
     font-size: 10vh;
     font-weight: 100;
     color: #FFFAF1;
@@ -136,19 +138,19 @@ a {
 
 /* About image alligned left content right */
 
-.about-image-left {  
+.about-image-left {
     width: 35vw;
-    float: left;   
+    float: left;
     margin: 0 6vw;
     clear: both;
-    
+
 }
 
 .about-image-left img {
     width: 100%;
-    height: 35vh; 
+    height: 35vh;
     border: 2px solid #FFFAF1;
-    
+
 }
 
 .about-content-right {
@@ -168,19 +170,19 @@ a {
 
 /* About image alligned right and content aligned left */
 
-.about-image-right {  
+.about-image-right {
     width: 35vw;
-    float: right;   
+    float: right;
     margin: 0 6vw;
     clear: both;
-    
+
 }
 
 .about-image-right img {
     width: 100%;
-    height: 35vh; 
+    height: 35vh;
     border: 2px solid #FFFAF1;
-    
+
 }
 
 .about-content-left {
@@ -199,7 +201,7 @@ a {
 }
 
 .white-border {
-    margin-top: 30px ;
+    margin-top: 30px;
     border: 1px solid white;
 }
 
@@ -220,14 +222,14 @@ a {
 }
 
 
-.subscribe-title { 
+.subscribe-title {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 60px;
     padding-top: 60px;
     font-size: 350%;
     font-weight: 100;
-     color: #FFFAF1;
+    color: #FFFAF1;
 }
 
 .form-label {
@@ -264,6 +266,11 @@ a {
     font-size: 60px;
 }
 
+#sub-button:hover {
+    background: #FFFAF1;
+    color: black;
+}
+
 /* Social Section */
 
 #socials {
@@ -283,6 +290,7 @@ a {
     display: inline-block;
     margin: 10px auto 30px auto;
 }
+
 #socials-list li {
     width: 24%;
     display: inline-block;
@@ -294,7 +302,7 @@ a {
 /* Responsiveness Mobile - Max 768px */
 
 @media screen and (max-width:768px) {
-    
+
     #navbar {
         position: absolute;
         display: inline-block;
@@ -303,13 +311,9 @@ a {
         height: 6vh;
         margin: 0 auto;
         clear: both;
-        
-    }
 
-    #navbar #logo {
-        display: none;
-        float: none;
     }
+    
 
     #menu {
         text-align: center;
@@ -329,31 +333,215 @@ a {
         height: 40vh;
     }
 
+    .container-mini {
+        width: 100vw;
+        display: inline-block;
+        margin: 2.5vh auto 2.5vh auto;
+    }
+
+
+    .about-image-left {
+        width: 60vw;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+
+
+    .about-content-right {
+        width: 100vw;
+        height: 15vh;
+        letter-spacing: .5px;
+        color: #FFFAF1;
+        font-size: .9rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .white-border {
+        display: none;
+    }
+
+    .about-image-right {
+        width: 60vw;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+
+    .about-image-left img {
+        height: 25vh;
+    }
+
+    .about-image-right img {
+        height: 25vh;
+    }
+
+    .about-content-left {
+        width: 100vw;
+        height: 15vh;
+        letter-spacing: .5px;
+        color: #FFFAF1;
+        font-size: .9rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
 
 }
 
 /* Responsiveness Fixes Mobile - Max 420px */
 
 
-@media screen and (max-width:420px) {      
+@media screen and (max-width:420px) {
     #navbar {
         position: absolute;
         display: inline-block;
         padding: 0;
         text-align: center;
-        height: 6vh;
+        height: 15vh;
         margin: 0 auto;
         clear: both;
-        
-        
+
+
+    }
+
+    #logo {
+        float: none;
+        margin-left: 0;
+    }
+
+    #menu, #logo {
+        line-height: 7.5vh;
     }
 
     #menu {
         text-align: center;
-        height: inherit;
+        height: 7.5vh;
     }
 
     #menu li {
-        line-height: 0px;
+        line-height: 7.5vh;
     }
+
+    .container-mini {
+        margin: 4vh auto;
+
+    }
+
+    #about {
+        margin-top: 15vh;
+    }
+
+    .about-image-left {
+        width: 60vw;
+        height: 15vh;
+    }
+
+    .about-image-left img {
+        width: 60vw;
+        height: 15vh;
+    }
+
+    .about-content-right {
+        font-size: .6rem;
+        height: 20vh;
+    }
+
+    .about-image-right {
+        width: 60vw;
+        height: 15vh;
+    }
+
+    .about-image-right img {
+        width: 60vw;
+        height: 15vh;
+    }
+
+    .about-content-left {
+        font-size: .6rem;
+        height: 20vh;
+    }
+
+    .subscribe-title {
+        margin-bottom: 4vw;
+        padding-top: 1vw;
+        font-size: 2rem;
+    }
+
+    .form-label {
+        font-size: 1.4rem;
+    }
+
+    .form-input {
+        font-size: 1.2rem;
+    }
+
+    #sub-button {
+        font-size: 2rem;
+    }
+
+    #socials {
+        margin-top: 0px;
+    }
+
+}
+
+/* responsiveness 3840px and up (big screens) */
+
+@media screen and (min-width: 3840px) {
+    #navbar {
+        height: 10vh;
+    }
+
+    #menu {
+        font-size: 5rem;
+    }
+
+    #menu, #logo {
+        line-height: 8vh;
+    }
+
+    #logo {
+        font-size: 10rem;
+    }
+
+    .about-content-right {
+        font-size: 3em;
+    }
+
+    .about-content-left {
+        font-size: 3em;
+    }
+
+    .subscribe-title {
+        font-size: 10rem;
+    }
+
+    .form-label {
+        font-size: 5rem;
+    }
+
+    .form-input {
+        font-size: 4rem;
+    }
+
+    #sub-button {
+        font-size: 10rem;
+        height: 8vh;
+    }
+
+    #socials {
+        margin-top: 10vh;
+    }
+
+    #socials-title {
+        font-size: 5rem;
+    }
+
+    #socials-list li {
+        font-size: 10rem;
+    }
+
 }
