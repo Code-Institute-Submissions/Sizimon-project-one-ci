@@ -298,6 +298,9 @@ a {
     font-size: 40px;
 }
 
+footer h3 {
+    color: #FFFAF1;
+}
 
 /* Responsiveness Mobile - Max 768px */
 
@@ -544,4 +547,7 @@ a {
         font-size: 10rem;
     }
 
+    footer h3 {
+        font-size: 2em;
+    }
 }
