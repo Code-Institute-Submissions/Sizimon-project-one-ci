@@ -422,6 +422,7 @@ footer h3 {
     #menu {
         text-align: center;
         height: 7.5vh;
+        font-size: 1em;
     }
 
     #menu li {
